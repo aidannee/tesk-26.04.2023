@@ -1,21 +1,21 @@
 let addButton = document.querySelector("#addButton");
 let deleteButton = document.querySelector("#deleteButton");
 let todoItems = document.querySelector("#todoItems");
+let todoInput = document.querySelector("#todoInput");
 // let taskData = document.querySelector("#taskData");
 // let taskDataContent = taskData.textContent;
 // console.log(taskDataContent);
 
 //! ADD
-// addButton.addEventListener("click", function () {
-//   let newTask = document.createElement("li");
-//   newTask.innerText = "New task!";
-//   todoItems.append(newTask);
-// });
+// function addItem() {
+//   let todoItems = document.querySelector("#todoItems");
+//   let result = (todoInput.value = todoItems.innerHTML);
+//   todoItems.innerHTML = todoInput.value;
+// }
 
 function addItem() {
   let newTask = document.createElement("li");
-
-  newTask.innerText = "New task!";
+  newTask.innerText = todoInput.value;
   todoItems.append(newTask);
 }
 

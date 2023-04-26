@@ -5,8 +5,31 @@
 body {
   margin: auto;
   width: 85%;
+  text-align: center;
 }
+/* list */
+#firstSection {
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: lightgrey 5px 5px 5px;
+  margin: 50px 0;
+  border-radius: 10px;
+}
+li {
+  list-style-type: none;
+}
+/* buttonarea  */
 
+#todoInput {
+  height: 50px;
+  margin: 50px 0;
+  border-radius: 10px;
+  box-shadow: lightgrey 5px 5px 5px;
+}
+#buttonArea {
+  display: flex;
+  flex-direction: column;
+}
 button {
   background-color: darkblue;
   color: white;
